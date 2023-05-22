@@ -22,7 +22,7 @@ public class QuestyApplication {
     String env;
 
     @Bean
-    CommandLineRunner checMode() {
+    CommandLineRunner checkMode() {
         return a -> {
             System.out.println("App running in mode: " + env);
         };

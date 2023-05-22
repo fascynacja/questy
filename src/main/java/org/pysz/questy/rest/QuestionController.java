@@ -5,12 +5,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.pysz.questy.model.Questions;
 import org.pysz.questy.service.QuestionService;
 import org.pysz.questy.service.QuestionTraceService;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.io.IOException;
 import java.util.List;
 
 @RestController
@@ -20,8 +18,10 @@ public class QuestionController {
 
     private final QuestionService service;
     private final QuestionTraceService questionTraceService;
-    @Value("${question.ids}")
-    List<String> questionIds;
+
+    // temporary static list just for preprod testing
+    private final List<String> questionIds = List.of("76251895", "76180420");
+
     @GetMapping("/question")
     public @ResponseBody String question() {
 
