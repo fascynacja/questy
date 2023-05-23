@@ -8,7 +8,7 @@ plugins {
 group = 'org.pysz'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
-
+appengine.deploy.version = 'GCLOUD_CONFIG'
 appengine {
     deploy {   // deploy configuration
         projectId = 'GCLOUD_CONFIG'
