@@ -21,7 +21,7 @@ public class QuestionController {
     private final QuestionTraceService questionTraceService;
 
     // temporary static list just for preprod testing
-    private final List<String> questionIds = List.of("76251895", "76180420", "64360895", "59105688");
+    private final List<String> questionIds = List.of("76251895", "76180420", "64360895", "59105688","76315960");
 
     @GetMapping("/questions/propagate")
     public @ResponseBody String propagate() {
