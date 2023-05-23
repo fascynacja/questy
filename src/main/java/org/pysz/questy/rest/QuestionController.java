@@ -32,7 +32,7 @@ public class QuestionController {
         return questions.toString();
     }
 
-    @GetMapping("/questions/all")
+    @GetMapping("/questions")
     public @ResponseBody Iterable<QuestionTrace> all() {
         return questionTraceService.all();
     }

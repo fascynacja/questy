@@ -30,7 +30,7 @@ public class ResponseUnZipper {
         try {
             byte[] content = byteArrayOutputStream.toByteArray();
             T entity = mapper.readValue(content, clazz);
-            log.debug("Unzipped entity: ", entity);
+            log.debug("Unzipped entity: {}", entity);
             return entity;
         } catch (IOException e) {
             log.error("Problem while mapping the response", e);
