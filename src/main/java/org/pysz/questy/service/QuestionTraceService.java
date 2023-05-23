@@ -22,6 +22,11 @@ public class QuestionTraceService {
                 .forEach(trace -> questionTraceRepository.save(trace));
     }
 
+    public Iterable<QuestionTrace> all() {
+        return questionTraceRepository.findAll();
+    }
+
+
     private QuestionTrace toTrace(Questions.QuestionItem q) {
         return new QuestionTrace(q.getQuestionId(), q.getViewCount(), LocalDateTime.now());
     }

@@ -23,14 +23,12 @@ public class QuestionService {
     private final ResponseUnZipper responseUnZipper;
 
     public Questions questions(List<String> ids) {
-
         String url = String.format(QUESTION_URL, String.join(";", ids));
         log.debug("Retrieving questions from url: {} ", url);
         ResponseEntity<byte[]> response = restTemplate.exchange(url, HttpMethod.GET, new HttpEntity<byte[]>(createHeaders()), byte[].class);
         log.info("Retrieved questions for ids: {} ", ids);
         return responseUnZipper.getEntity(response, Questions.class);
     }
-
 
     HttpHeaders createHeaders() {
         HttpHeaders headers = new HttpHeaders();

@@ -3,6 +3,7 @@ package org.pysz.questy.rest;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.pysz.questy.model.Questions;
+import org.pysz.questy.persistnce.QuestionTrace;
 import org.pysz.questy.service.QuestionService;
 import org.pysz.questy.service.QuestionTraceService;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,14 +21,28 @@ public class QuestionController {
     private final QuestionTraceService questionTraceService;
 
     // temporary static list just for preprod testing
-    private final List<String> questionIds = List.of("76251895", "76180420","64360895", "59105688");
+    private final List<String> questionIds = List.of("76251895", "76180420", "64360895", "59105688");
 
-    @GetMapping("/question")
-    public @ResponseBody String question() {
+    @GetMapping("/questions/propagate")
+    public @ResponseBody String propagate() {
 
         Questions questions = service.questions(questionIds);
         log.info("Manually triggered propagating questions " + questions);
         questionTraceService.propagateQuestions(questions);
         return questions.toString();
     }
+
+    @GetMapping("/questions/all")
+    public @ResponseBody Iterable<QuestionTrace> all() {
+        return questionTraceService.all();
+    }
+
+    /*@GetMapping("/question/{id}")
+    public @ResponseBody String questionById() {
+
+        Questions questions = service.questions(questionIds);
+        log.info("Manually triggered propagating questions " + questions);
+        questionTraceService.propagateQuestions(questions);
+        return questions.toString();
+    }*/
 }
