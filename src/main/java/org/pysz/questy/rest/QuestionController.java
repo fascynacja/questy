@@ -1,15 +1,19 @@
 package org.pysz.questy.rest;
 
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.pysz.questy.model.Questions;
 import org.pysz.questy.persistnce.QuestionTrace;
+import org.pysz.questy.service.CsvExportService;
 import org.pysz.questy.service.QuestionService;
 import org.pysz.questy.service.QuestionTraceService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.IOException;
 import java.util.List;
 
 @RestController
@@ -20,8 +24,9 @@ public class QuestionController {
     private final QuestionService service;
     private final QuestionTraceService questionTraceService;
 
+    private CsvExportService csvGenerator;
     // temporary static list just for preprod testing
-    private final List<String> questionIds = List.of("76251895", "76180420", "64360895", "59105688","76315960");
+    private final List<String> questionIds = List.of("76251895", "76180420", "64360895", "59105688","76315960","75506347");
 
     @GetMapping("/questions/propagate")
     public @ResponseBody String propagate() {
@@ -35,6 +40,15 @@ public class QuestionController {
     @GetMapping("/questions")
     public @ResponseBody Iterable<QuestionTrace> all() {
         return questionTraceService.all();
+    }
+
+
+    @GetMapping("/questions/csv")
+    public  void allCSV(HttpServletResponse servletResponse) throws IOException {
+        servletResponse.setContentType("text/csv");
+        servletResponse.addHeader("Content-Disposition","attachment; filename=\"questy.csv\"");
+        csvGenerator.writeEmployeesToCsv(servletResponse.getWriter(), questionTraceService.all());
+
     }
 
     /*@GetMapping("/question/{id}")

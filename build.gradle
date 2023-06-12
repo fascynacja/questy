@@ -3,6 +3,8 @@ plugins {
     id 'org.springframework.boot' version '3.1.0'
     id 'io.spring.dependency-management' version '1.1.0'
     id 'com.google.cloud.tools.jib' version '3.3.2'
+    id 'maven-publish'
+
 }
 
 group = 'org.pysz'
@@ -36,10 +38,11 @@ configurations {
     }
 }
 dependencies {
-    implementation 'com.google.cloud:spring-cloud-gcp-starter-sql-mysql'
+   /* implementation 'com.google.cloud:spring-cloud-gcp-starter-sql-mysql'*/
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     runtimeOnly 'com.mysql:mysql-connector-j'
+    implementation 'org.apache.commons:commons-csv:1.8'
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
@@ -48,4 +51,16 @@ dependencies {
 
 tasks.named('test') {
     useJUnitPlatform()
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'edu.bbte.gradleex.mavenplugin'
+            artifactId = 'gradleex-mavenplugin'
+            version = '1.0.0-SNAPSHOT'
+
+            from components.java
+        }
+    }
 }
