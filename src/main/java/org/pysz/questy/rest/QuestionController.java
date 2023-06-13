@@ -25,13 +25,11 @@ public class QuestionController {
     private final QuestionTraceService questionTraceService;
 
     private CsvExportService csvGenerator;
-    // temporary static list just for preprod testing
-    private final List<String> questionIds = List.of("76251895", "76180420", "64360895", "59105688","76315960","75506347");
 
     @GetMapping("/questions/propagate")
     public @ResponseBody String propagate() {
 
-        Questions questions = service.questions(questionIds);
+        Questions questions = service.questions( );
         log.info("Manually triggered propagating questions " + questions);
         questionTraceService.propagateQuestions(questions);
         return questions.toString();

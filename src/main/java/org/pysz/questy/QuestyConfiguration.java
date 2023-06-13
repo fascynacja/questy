@@ -11,21 +11,17 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.List;
-
 @Configuration
 @Slf4j
 public class QuestyConfiguration {
 
-    @Value("${question.ids}")
-    List<String> questionIds;
 
     @Value("${env}")
     String env;
 
     @Bean
     QuestionPoller questionTasks(QuestionService questionService, QuestionTraceService questionTraceService) {
-        return new QuestionPoller(questionService, questionTraceService, questionIds);
+        return new QuestionPoller(questionService, questionTraceService);
     }
 
 

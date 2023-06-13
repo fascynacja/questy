@@ -16,17 +16,16 @@ import java.util.List;
 @Slf4j
 @AllArgsConstructor
 public class QuestionService {
-
-    private static final String QUESTION_URL = "https://api.stackexchange.com/2.3/questions/%s?order=desc&sort=activity&site=stackoverflow";
+    private static final String QUESTION_URL = "https://api.stackexchange.com//2.3/users/2695990/questions?order=desc&sort=activity&site=stackoverflow";
 
     private final RestTemplate restTemplate;
     private final ResponseUnZipper responseUnZipper;
 
-    public Questions questions(List<String> ids) {
-        String url = String.format(QUESTION_URL, String.join(";", ids));
+    public Questions questions( ) {
+        String url = QUESTION_URL;
         log.debug("Retrieving questions from url: {} ", url);
         ResponseEntity<byte[]> response = restTemplate.exchange(url, HttpMethod.GET, new HttpEntity<byte[]>(createHeaders()), byte[].class);
-        log.info("Retrieved questions for ids: {} ", ids);
+        log.info("Retrieved questions for user: {} ", "2695990");
         return responseUnZipper.getEntity(response, Questions.class);
     }
 
