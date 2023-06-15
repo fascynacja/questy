@@ -11,11 +11,11 @@ import org.springframework.scheduling.annotation.Scheduled;
 @Slf4j
 public class QuestionPoller {
 
-    public static final int MILLISEC_PER_HOUR = 3600000;
+    public static final int MILLISEC_PER_12_HOUR = 12*3600000;
     private final QuestionService questionService;
     private final QuestionTraceService questionTraceService;
 
-    @Scheduled(fixedRate = MILLISEC_PER_HOUR)
+    @Scheduled(fixedRate = MILLISEC_PER_12_HOUR)
     public void reportCurrentTime() {
         Questions questions = questionService.questions();
         questionTraceService.propagateQuestions(questions);
