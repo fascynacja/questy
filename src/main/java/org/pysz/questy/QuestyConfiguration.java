@@ -19,11 +19,6 @@ public class QuestyConfiguration {
     @Value("${env}")
     String env;
 
-    @Bean
-    QuestionPoller questionTasks(QuestionService questionService, QuestionTraceService questionTraceService) {
-        return new QuestionPoller(questionService, questionTraceService);
-    }
-
 
     @Bean
     public RestTemplate restTemplate(RestTemplateBuilder builder) {
