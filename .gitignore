@@ -35,3 +35,22 @@ out/
 
 ### VS Code ###
 .vscode/
+/target/classes/application.properties
+/target/classes/application-dev.properties
+/target/classes/application-prd.properties
+/target/test-classes/classpath.index
+/target/classes/org/pysz/questy/service/CsvExportService.class
+/target/classes/org/pysz/questy/rest/QuestionController.class
+/target/classes/org/pysz/questy/service/QuestionPoller.class
+/target/classes/org/pysz/questy/model/Questions$QuestionItem.class
+/target/classes/org/pysz/questy/model/Questions.class
+/target/classes/org/pysz/questy/service/QuestionService.class
+/target/classes/org/pysz/questy/persistnce/QuestionTrace.class
+/target/classes/org/pysz/questy/persistnce/QuestionTraceRepository.class
+/target/classes/org/pysz/questy/service/QuestionTraceService.class
+/target/classes/org/pysz/questy/QuestyApplication.class
+/target/test-classes/org/pysz/questy/QuestyApplicationTests.class
+/target/classes/org/pysz/questy/QuestyConfiguration.class
+/target/classes/org/pysz/questy/service/ResponseUnZipper.class
+/target/test-classes/org/pysz/questy/Test.class
+/src/main/test.json

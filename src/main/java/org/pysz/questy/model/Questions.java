@@ -16,6 +16,10 @@ public class Questions {
 
         @JsonProperty("question_id")
         String questionId;
+
+        @JsonProperty("title")
+        String title;
+
     }
 }
 
