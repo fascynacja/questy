@@ -23,7 +23,6 @@ public class QuestionTraceService {
     private final QuestionTraceRepository questionTraceRepository;
 
 
-
     public void propagateQuestions(Questions questions) {
         LocalDateTime now = LocalDateTime.now();
         questions.getItems().stream()
@@ -55,7 +54,7 @@ public class QuestionTraceService {
         TreeMap<Date, Map<String, Integer>> viewCountForQuestionIdAndForDates = getViewCountForQuestionIdAndForDates();
         Map<String, Integer> minValues = new HashMap<>(viewCountForQuestionIdAndForDates.firstEntry().getValue());
         viewCountForQuestionIdAndForDates.values().forEach(v -> {
-            v.replaceAll((s, integer) -> integer - minValues.get(s));
+            v.replaceAll((s, integer) -> integer - minValues.getOrDefault(s, 0));
         });
         return viewCountForQuestionIdAndForDates;
     }
