@@ -1,5 +1,6 @@
 package org.pysz.questy.service;
 
+import com.google.common.collect.ImmutableSortedMap;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.pysz.questy.model.Questions;
@@ -7,6 +8,7 @@ import org.pysz.questy.persistnce.QuestionInfo;
 import org.pysz.questy.persistnce.QuestionInfoRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.Comparator;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -25,9 +27,12 @@ public class QuestionInfoService {
     }
 
     public Map<String, String> titlesByIds() {
-        return repository.findAll()
+        return repository.findAllByOrderByQuestionId()
                 .stream()
-                .collect(Collectors.toMap(QuestionInfo::getQuestionId, QuestionInfo::getTitle));
+                .collect(ImmutableSortedMap.toImmutableSortedMap(
+                        Comparator.comparing(String::toString),
+                        QuestionInfo::getQuestionId,
+                        QuestionInfo::getTitle));
     }
 
     private QuestionInfo toInfo(Questions.QuestionItem q) {

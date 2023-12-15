@@ -16,7 +16,7 @@ import java.util.List;
 @Slf4j
 @AllArgsConstructor
 public class QuestionService {
-    private static final String QUESTION_URL = "https://api.stackexchange.com//2.3/users/2695990/questions?order=desc&sort=activity&site=stackoverflow";
+    private static final String QUESTION_URL = "https://api.stackexchange.com//2.3/users/2695990/questions?order=desc&sort=creation&site=stackoverflow&pagesize=100";
 
     private final RestTemplate restTemplate;
     private final ResponseUnZipper responseUnZipper;

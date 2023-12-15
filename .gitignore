@@ -35,6 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+/build/
+/target/*
 /target/classes/application.properties
 /target/classes/application-dev.properties
 /target/classes/application-prd.properties

@@ -8,4 +8,5 @@ import java.util.List;
 public interface QuestionInfoRepository extends CrudRepository<QuestionInfo, String> {
 
     List<QuestionInfo> findAll();
+    List<QuestionInfo> findAllByOrderByQuestionId();
 }

@@ -1,0 +1,941 @@
+{
+  "items": [
+    {
+      "tags": [
+        "git",
+        "azure",
+        "azure-devops",
+        "compare",
+        "azure-repos"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": false,
+      "view_count": 151,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1699453960,
+      "creation_date": 1699432916,
+      "last_edit_date": 1699435911,
+      "question_id": 77443983,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/77443983/azure-devops-repos-compare-file-between-two-branches",
+      "title": "Azure Devops Repos compare file between two branches"
+    },
+    {
+      "tags": [
+        "xml",
+        "powershell",
+        "intellij-idea",
+        "relative-path",
+        "powershell-5.1"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": false,
+      "view_count": 41,
+      "closed_date": 1699449677,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1699453756,
+      "creation_date": 1699429306,
+      "last_edit_date": 1699453756,
+      "question_id": 77443620,
+      "link": "https://stackoverflow.com/questions/77443620/powershell-xml-save-does-not-save-the-file-on-the-same-path-in-intellij",
+      "closed_reason": "Duplicate",
+      "title": "PowerShell xml.Save does not save the file on the same path in IntelliJ"
+    },
+    {
+      "tags": [
+        "azure",
+        "azure-devops",
+        "pull-request",
+        "azure-repos"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 119,
+      "accepted_answer_id": 77365846,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1698313236,
+      "creation_date": 1698312689,
+      "question_id": 77365775,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/77365775/azuredev-repos-how-to-change-target-for-pull-request",
+      "title": "AzureDev Repos, how to change target for pull request"
+    },
+    {
+      "tags": [
+        "azure",
+        "azure-devops",
+        "repository",
+        "azure-repos"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 209,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1698401600,
+      "creation_date": 1698040461,
+      "last_edit_date": 1698094059,
+      "question_id": 77342874,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/77342874/azure-devops-show-all-repositories-from-the-project",
+      "title": "Azure Devops Show all repositories from the project"
+    },
+    {
+      "tags": [
+        "azure",
+        "azure-devops",
+        "branch",
+        "pull-request",
+        "azure-repos"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 35,
+      "accepted_answer_id": 77331319,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1697808630,
+      "creation_date": 1697807719,
+      "question_id": 77331213,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/77331213/adding-more-than-one-links-for-a-branch-pull-request-to-an-user-story-in-azure-d",
+      "title": "Adding more than one links for a branch/pull request to an User Story in Azure Devops"
+    },
+    {
+      "tags": [
+        "java",
+        "spring",
+        "rest",
+        "spring-mvc",
+        "spring-test"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": false,
+      "view_count": 30,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1697629181,
+      "creation_date": 1697629181,
+      "question_id": 77315964,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/77315964/creating-restclienttest-test-without-springboottest-gives-error-java-lang-i",
+      "title": "Creating @RestClientTest test without @SpringBootTest gives error : &quot;java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration&quot;"
+    },
+    {
+      "tags": [
+        "azure",
+        "azure-devops",
+        "branch",
+        "azure-repos"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 137,
+      "accepted_answer_id": 77279180,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1697180992,
+      "creation_date": 1697098594,
+      "question_id": 77278854,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/77278854/azure-devops-repos-sort-branches-by-authored-date",
+      "title": "Azure Devops Repos, sort branches by &quot;authored date&quot;"
+    },
+    {
+      "tags": [
+        "npm",
+        "intellij-idea",
+        "dependencies",
+        "package.json"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": false,
+      "view_count": 36,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1695975157,
+      "creation_date": 1695975157,
+      "question_id": 77200360,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/77200360/intellij-plugin-to-view-npm-dependency-tree-visualise-package-json",
+      "title": "IntelliJ Plugin to view NPM dependency tree (visualise package.json)"
+    },
+    {
+      "tags": [
+        "groovy",
+        "interface"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": false,
+      "view_count": 100,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1689519925,
+      "creation_date": 1688977972,
+      "question_id": 76652031,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76652031/use-a-basescript-in-a-groovy-class-gives-annotation-basescript-can-only-be-used",
+      "title": "Use a BaseScript in a groovy class gives Annotation @BaseScript can only be used within a script"
+    },
+    {
+      "tags": [
+        "csv",
+        "google-sheets",
+        "importdata"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 73,
+      "accepted_answer_id": 76579244,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1688026672,
+      "creation_date": 1688020706,
+      "question_id": 76578583,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76578583/google-spreadsheets-importdata-imports-date-from-csv-file-as-integer-instead-o",
+      "title": "Google Spreadsheets IMPORTDATA imports &quot;date&quot; from CSV file as integer instead of &quot;date&quot;"
+    },
+    {
+      "tags": [
+        "docker",
+        "kubernetes",
+        "google-cloud-platform",
+        "google-cloud-sql"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 542,
+      "accepted_answer_id": 76472294,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1686819893,
+      "creation_date": 1686733063,
+      "last_edit_date": 1686738732,
+      "question_id": 76471769,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76471769/failed-to-update-metadata-for-cloud-sql-instance-request-had-insufficient-auth",
+      "title": "Failed to update metadata for Cloud SQL instance. :Request had insufficient authentication scopes"
+    },
+    {
+      "tags": [
+        "docker",
+        "kubernetes",
+        "google-cloud-platform",
+        "oauth",
+        "authorization"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 6443,
+      "accepted_answer_id": 76464817,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1686820190,
+      "creation_date": 1686647263,
+      "last_edit_date": 1686724610,
+      "question_id": 76463317,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76463317/error-errimagepull-failed-to-fetch-oauth-token-unexpected-status-403-forbid",
+      "title": "Error: ErrImagePull : failed to fetch oauth token: unexpected status: 403 Forbidden while creating kubernetes deployment on Google Cloud"
+    },
+    {
+      "tags": [
+        "kubernetes",
+        "google-cloud-platform",
+        "kubectl"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 68,
+      "accepted_answer_id": 76460360,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1686604282,
+      "creation_date": 1686571536,
+      "last_edit_date": 1686602708,
+      "question_id": 76456504,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76456504/calling-kubectl-version-on-google-cloud-terminal-takes-30-seconds-and-returns",
+      "title": "calling kubectl version on Google Cloud Terminal takes ~30 seconds and returns &quot;Unable to connect to the server: dial tcp ... timeout&quot;"
+    },
+    {
+      "tags": [
+        "kubernetes",
+        "google-cloud-platform",
+        "kubectl"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 115,
+      "accepted_answer_id": 76458526,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1686821149,
+      "creation_date": 1686570962,
+      "last_edit_date": 1686820786,
+      "question_id": 76456422,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76456422/google-cloud-kubernetes-clusters-dashboard-does-not-show-clusters-from-kubectl",
+      "title": "Google Cloud Kubernetes Clusters dashboard does not show clusters from &quot;kubectl config view&quot;"
+    },
+    {
+      "tags": [
+        "spring-boot",
+        "kubernetes",
+        "gradle",
+        "google-cloud-platform",
+        "jib"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 179,
+      "accepted_answer_id": 76323286,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1686647385,
+      "creation_date": 1684852720,
+      "last_edit_date": 1686647385,
+      "question_id": 76315960,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76315960/deploying-spring-boot-app-based-on-gradle-to-google-cloud-kubernetes-engine-us",
+      "title": "Deploying Spring Boot app (based on Gradle) to Google Cloud Kubernetes Engine using Jib plugin gives error"
+    },
+    {
+      "tags": [
+        "java",
+        "memory",
+        "jvm",
+        "heap-memory",
+        "metaspace"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": false,
+      "view_count": 210,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1687847058,
+      "creation_date": 1684136794,
+      "last_edit_date": 1687846977,
+      "question_id": 76251895,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76251895/openjdk-jvm-memory-layout-metaspace-code-cache-heap-non-heap-runtime-consta",
+      "title": "OpenJDK JVM memory layout (Metaspace, Code Cache, Heap, Non-Heap, Runtime Constant Pool)"
+    },
+    {
+      "tags": [
+        "java",
+        "multithreading",
+        "java-19",
+        "virtual-threads"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 672,
+      "accepted_answer_id": 76183754,
+      "answer_count": 2,
+      "score": 5,
+      "last_activity_date": 1698640569,
+      "creation_date": 1683276666,
+      "last_edit_date": 1683278819,
+      "question_id": 76180420,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76180420/thread-currentthread-getname-returns-empty-string-for-virtual-threads-cre",
+      "title": "Thread.currentThread().getName() returns empty string &quot;&quot; for Virtual Threads created via Executors.newVirtualThreadPerTaskExecutor()"
+    },
+    {
+      "tags": [
+        "java",
+        "pattern-matching",
+        "record",
+        "java-record"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": false,
+      "view_count": 109,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1682988930,
+      "creation_date": 1677832372,
+      "last_edit_date": 1677838821,
+      "question_id": 75624786,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/75624786/extracting-a-java-record-nested-pattern-of-record-graph-where-one-of-the-compone",
+      "title": "Extracting a Java record nested pattern of record graph where one of the components is null"
+    },
+    {
+      "tags": [
+        "splunk",
+        "splunk-query"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 214,
+      "accepted_answer_id": 75511258,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1677654394,
+      "creation_date": 1676877989,
+      "last_edit_date": 1677654394,
+      "question_id": 75506347,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/75506347/run-predefined-search-sub-query-in-splunk",
+      "title": "Run predefined search sub-query in splunk"
+    },
+    {
+      "tags": [
+        "azure",
+        "terraform",
+        "terraform-provider-azure"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 1168,
+      "accepted_answer_id": 64364266,
+      "answer_count": 1,
+      "score": 3,
+      "last_activity_date": 1602735530,
+      "creation_date": 1602706623,
+      "question_id": 64360895,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/64360895/how-to-read-output-content-from-azurerm-resource-group-template-deployment",
+      "title": "How to read output_content from azurerm_resource_group_template_deployment"
+    },
+    {
+      "tags": [
+        "terraform",
+        "terraform-provider-azure"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 1821,
+      "accepted_answer_id": 64314832,
+      "answer_count": 2,
+      "score": 2,
+      "last_activity_date": 1602588803,
+      "creation_date": 1602488724,
+      "last_edit_date": 1602490285,
+      "question_id": 64313592,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/64313592/how-to-define-azurerm-resource-group-template-deployment-parameters-content",
+      "title": "how to define &quot;azurerm_resource_group_template_deployment&quot; &quot;parameters_content&quot; section"
+    },
+    {
+      "tags": [
+        "azure",
+        "azure-cosmosdb",
+        "azure-cosmosdb-sqlapi"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 296,
+      "accepted_answer_id": 64224375,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1602144447,
+      "creation_date": 1601978410,
+      "last_edit_date": 1602144447,
+      "question_id": 64223533,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/64223533/cosmos-db-query-min-function-to-get-the-smallest-id",
+      "title": "Cosmos DB query MIN function to get the smallest id"
+    },
+    {
+      "tags": [
+        "java",
+        "azure",
+        "azure-cosmosdb",
+        "azureportal",
+        "azure-java-sdk"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 1842,
+      "accepted_answer_id": 60971672,
+      "answer_count": 3,
+      "score": 3,
+      "last_activity_date": 1585819822,
+      "creation_date": 1585738351,
+      "last_edit_date": 1585819822,
+      "question_id": 60969216,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/60969216/cosmos-db-trigger-is-not-being-run-when-inserting-new-document",
+      "title": "Cosmos Db Trigger is not being run when inserting new document"
+    },
+    {
+      "tags": [
+        "java",
+        "azure-cosmosdb",
+        "azure-cosmosdb-sqlapi",
+        "where-in",
+        "azure-java-sdk"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 1485,
+      "accepted_answer_id": 60942501,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1585638264,
+      "creation_date": 1585580171,
+      "last_edit_date": 1585638264,
+      "question_id": 60933325,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/60933325/how-to-create-the-sqlqueryspec-in-java-in-order-to-retrieve-a-list-of-documents",
+      "title": "How to create the SqlQuerySpec in Java in order to retrieve a list of documents with given ids (where-in clause)"
+    },
+    {
+      "tags": [
+        "java",
+        "azure-cosmosdb",
+        "azure-cosmosdb-sqlapi",
+        "azure-java-sdk"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 841,
+      "accepted_answer_id": 60646613,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1585903738,
+      "creation_date": 1583938921,
+      "question_id": 60638974,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/60638974/do-not-throw-documentclientexception-while-trying-to-delete-not-existing-documen",
+      "title": "Do not throw DocumentClientException while trying to delete not existing document in Cosmos DB Java SDK"
+    },
+    {
+      "tags": [
+        "java",
+        "azure",
+        "azure-cosmosdb",
+        "azure-cosmosdb-sqlapi",
+        "azure-java-sdk"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 385,
+      "accepted_answer_id": 60543438,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1583404697,
+      "creation_date": 1583398299,
+      "question_id": 60541362,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/60541362/com-microsoft-azure-documentdb-documentclientexception-date-header-doesnt-confo",
+      "title": "com.microsoft.azure.documentdb.DocumentClientException Date header doesn&#39;t conform to the required format"
+    },
+    {
+      "tags": [
+        "java",
+        "azure",
+        "azure-cosmosdb",
+        "azure-cosmosdb-sqlapi",
+        "azure-java-sdk"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 723,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1586373697,
+      "creation_date": 1583322344,
+      "last_edit_date": 1583338618,
+      "question_id": 60525325,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/60525325/java-api-for-azure-cosmos-documents-db-sql-api",
+      "title": "Java Api for Azure Cosmos Documents DB (SQL Api)"
+    },
+    {
+      "tags": [
+        "azure",
+        "azure-cosmosdb",
+        "azure-cosmosdb-sqlapi"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 556,
+      "accepted_answer_id": 60506035,
+      "answer_count": 2,
+      "score": 2,
+      "last_activity_date": 1583241759,
+      "creation_date": 1583232018,
+      "last_edit_date": 1583241759,
+      "question_id": 60505362,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/60505362/name-the-primary-key-of-container-in-cosmbos-db-sql-api-different-than-id",
+      "title": "Name the primary key of Container in Cosmbos DB Sql Api different than &quot;id&quot;"
+    },
+    {
+      "tags": [
+        "kubernetes",
+        "dashboard",
+        "rbac",
+        "kubernetes-dashboard"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 12432,
+      "accepted_answer_id": 59136288,
+      "answer_count": 2,
+      "score": 5,
+      "last_activity_date": 1697930940,
+      "creation_date": 1575033928,
+      "question_id": 59105688,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/59105688/how-to-view-roles-and-clusterroles-details-in-kubernetes-dashboard",
+      "title": "How to view Roles and ClusterRoles details in kubernetes dashboard"
+    },
+    {
+      "tags": [
+        "kubernetes",
+        "kubectl",
+        "kubernetes-pod"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 22713,
+      "accepted_answer_id": 58993731,
+      "answer_count": 8,
+      "score": 14,
+      "last_activity_date": 1688594464,
+      "creation_date": 1574420147,
+      "last_edit_date": 1574423607,
+      "question_id": 58992774,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/58992774/how-to-get-list-of-pods-which-are-ready",
+      "title": "How to get list of pods which are &quot;ready&quot;?"
+    },
+    {
+      "tags": [
+        "groovy",
+        "string-interpolation"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 107,
+      "accepted_answer_id": 52893234,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1539955332,
+      "creation_date": 1539954883,
+      "question_id": 52893100,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/52893100/groovy-list-of-strings-interpolated-into-a-text-loses-apostrophes",
+      "title": "Groovy: List of Strings interpolated into a text loses apostrophes"
+    },
+    {
+      "tags": [
+        "java",
+        "spring",
+        "junit",
+        "dependency-injection",
+        "mockito"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 29677,
+      "accepted_answer_id": 42351366,
+      "answer_count": 5,
+      "score": 36,
+      "last_activity_date": 1585576332,
+      "creation_date": 1487612648,
+      "question_id": 42351117,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/42351117/mockito-injecting-a-list-of-mocks",
+      "title": "Mockito - Injecting a List of mocks"
+    },
+    {
+      "tags": [
+        "intellij-idea",
+        "compiler-optimization",
+        "decompiler",
+        "java-bridge-method",
+        "java-synthetic-methods"
+      ],
+      "owner": {
+        "account_id": 306540,
+        "reputation": 1765,
+        "user_id": 2695990,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c05194ea1fcc0d2729ac3de4e023de72?s=256&d=identicon&r=PG",
+        "display_name": "fascynacja",
+        "link": "https://stackoverflow.com/users/2695990/fascynacja"
+      },
+      "is_answered": true,
+      "view_count": 686,
+      "accepted_answer_id": 42186334,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1574431133,
+      "creation_date": 1486884267,
+      "last_edit_date": 1574431133,
+      "question_id": 42185168,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/42185168/intellij-decompile-class-with-all-synthetic-methods",
+      "title": "IntelliJ decompile class with all synthetic methods"
+    }
+  ],
+  "has_more": false,
+  "quota_max": 300,
+  "quota_remaining": 263
+}
